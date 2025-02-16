@@ -1,6 +1,5 @@
 <h3>Olá! 👋 Eu sou o Yang. Sou um profissional da área de Tecnologia da Informação, formado em 
-técnico de Informática Suporte de T.I, com habilidades e conhecimentos em diversas áreas do universo de desenvolvimento de software,
-segurança cibernética, redes e administração de sistemas.</h3>
+técnico de Informática Suporte de T.I, com habilidades e conhecimentos em diversas áreas do universo de desenvolvimento de software,Servidores SQL Server, redes e administração de sistemas.</h3>
 
 <h3>Sobre Mim</h3>
   🎓 Técnico em Informática - Formado e atuante na área de suporte técnico em Tecnologia da Informação.<br>
