@@ -6,7 +6,7 @@
   💼 Experiência em Suporte Técnico - Atuo no suporte técnico, proporcionando soluções eficientes para os desafios tecnológicos.<br>
   🔒 Especialização em Cyber Security - Comprometido com a segurança da informação e a proteção de dados.<br>
   🚀 Conhecimentos em DevOps - Buscando otimizar processos de desenvolvimento e implementação de software.<br>
-  🛠️ Tecnologias Dominadas - Experiência prática em HTML, CSS, JS, Oracle DB, MySQL, Azure, C++, C# e .NET Framework.
+  🛠️ Tecnologias Dominadas -  Oracle DB | MySQL | SQL Server | Azure Cloud | AWS | GCP | Linux | Windows.
 
   
 <!---
