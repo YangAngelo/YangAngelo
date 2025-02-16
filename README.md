@@ -1,5 +1,4 @@
-<h3>Olá! 👋 Eu sou o Yang. Sou um profissional da área de Tecnologia da Informação, formado em 
-técnico de Informática Suporte de T.I, com habilidades e conhecimentos em diversas áreas do universo de desenvolvimento de software,Servidores SQL Server, redes e administração de sistemas.</h3>
+<h3>Olá! 👋 Eu sou o Yang. Sou um profissional com experiência em suporte de TI, Monitoramento e Infraestrutura. Atuei no setor pedagógico de informática e tenho mais de 3 anos de prática em hardware, manutenção de sistemas e configuração de SO. Atualmente, foco em DevOps, desenvolvimento multiplataforma e cloud, com experiência em AWS, monitoramento e projetos de B.I. Atuando como DBA na Giesecke+Devrient, administrando servidores SQL Server, além de trabalhar com MySQL e PostgreSQL. Tenho conhecimento em HelpDesk, suporte ao usuário e plataformas em nuvem como AWS e Azure.</h3>
 
 <h3>Sobre Mim</h3>
   🎓 Técnico em Informática - Formado e atuante na área de suporte técnico em Tecnologia da Informação.<br>
