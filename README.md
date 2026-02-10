@@ -3,7 +3,7 @@
 <h3>Sobre Mim</h3>
   🎓 Técnico em Informática - Formado e atuante na área de suporte técnico em Tecnologia da Informação.<br>
   📚 Cursando Superior em Desenvolvimento de Softwares Multiplataformas - Buscando aprimorar minhas habilidades em desenvolvimento de sistemas.<br>
-  💼 Experiência em Suporte Técnico - Atuo no suporte técnico, proporcionando soluções eficientes para os desafios tecnológicos.<br>
+  💼 Experiência em Suporte Técnico N2 - Atuei no suporte técnico, proporcionando soluções eficientes para os desafios tecnológicos.<br>
   🔒 Especialização em Cyber Security - Comprometido com a segurança da informação e a proteção de dados.<br>
   🚀 Conhecimentos em DevOps - Buscando otimizar processos de desenvolvimento e implementação de software.<br>
   🛠️ Tecnologias Dominadas -  Oracle DB | MySQL | SQL Server | Azure Cloud | AWS | GCP | Linux | Windows.
