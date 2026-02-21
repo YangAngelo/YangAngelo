@@ -7,7 +7,8 @@
   🔒 Especialização em Cyber Security - Comprometido com a segurança da informação e a proteção de dados.<br>
   🚀 Conhecimentos em DevOps - Buscando otimizar processos de desenvolvimento e implementação de software.<br>
   🛠️ Tecnologias Dominadas -  Oracle DB | MySQL | SQL Server | Azure Cloud | AWS | GCP | Linux | Windows.
-<h3>Cloud & Infrastructure Specialist | SQL Server DBA | Monitoring & DevOps | 3+ Years of Experience in IT Operations & Data Management
+
+Cloud & Infrastructure Specialist | SQL Server DBA | Monitoring & DevOps | 3+ Years of Experience in IT Operations & Data Management
 
 I’m an IT professional with solid experience in infrastructure, database administration, monitoring, and cloud computing. I work supporting critical environments with a strong focus on availability, performance, and security. My background includes server management, process automation, and cloud-native solution development.
 
@@ -38,4 +39,4 @@ Windows Server, Linux (Ubuntu, Red Hat, CentOS), Help Desk platforms (GLPI, Serv
 🧰 Other Skills:
 Web server configuration (Apache, Nginx), networking and shell scripting, customer and functional support for systems
 
-📌 I combine technical expertise with strong communication skills, delivering efficient, collaborative, and result-oriented support. I thrive in modern IT environments and value continuous learning and innovation.</h3>
+📌 I combine technical expertise with strong communication skills, delivering efficient, collaborative, and result-oriented support. I thrive in modern IT environments and value continuous learning and innovation.
