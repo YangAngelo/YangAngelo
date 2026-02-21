@@ -8,6 +8,7 @@
   🚀 Conhecimentos em DevOps - Buscando otimizar processos de desenvolvimento e implementação de software.<br>
   🛠️ Tecnologias Dominadas -  Oracle DB | MySQL | SQL Server | Azure Cloud | AWS | GCP | Linux | Windows.
 <br>
+
 Cloud & Infrastructure Specialist | SQL Server DBA | Monitoring & DevOps | 3+ Years of Experience in IT Operations & Data Management
 
 I’m an IT professional with solid experience in infrastructure, database administration, monitoring, and cloud computing. I work supporting critical environments with a strong focus on availability, performance, and security. My background includes server management, process automation, and cloud-native solution development.
