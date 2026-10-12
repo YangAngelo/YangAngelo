@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="250" viewBox="0 0 990 250">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .n { font: 800 38px 'Segoe UI', Ubuntu, Sans-Serif; fill: url(#g); }
+    .l { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .s { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    .f { opacity: 0; animation: fade .7s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  </style>
+  <rect x=".5" y=".5" width="989" height="249" rx="12" fill="#161b22" stroke="#30363d"/>
+  <text x="20" y="36" class="t">🏆 Destaques da carreira</text>
+
+  <g class="f" style="animation-delay:.1s">
+    <rect x="20" y="56" width="146" height="172" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="93" y="118" class="n" text-anchor="middle">10+</text>
+    <text x="93" y="150" class="l" text-anchor="middle">instâncias</text>
+    <text x="93" y="168" class="l" text-anchor="middle">SQL Server</text>
+    <text x="93" y="198" class="s" text-anchor="middle">capacity planning</text>
+    <text x="93" y="213" class="s" text-anchor="middle">centralizado</text>
+  </g>
+  <g class="f" style="animation-delay:.2s">
+    <rect x="181" y="56" width="146" height="172" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="254" y="118" class="n" text-anchor="middle">4+</text>
+    <text x="254" y="150" class="l" text-anchor="middle">bancos e</text>
+    <text x="254" y="168" class="l" text-anchor="middle">fintechs</text>
+    <text x="254" y="198" class="s" text-anchor="middle">Itaú · Bradesco</text>
+    <text x="254" y="213" class="s" text-anchor="middle">Santander · PicPay</text>
+  </g>
+  <g class="f" style="animation-delay:.3s">
+    <rect x="342" y="56" width="146" height="172" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="415" y="118" class="n" text-anchor="middle">6</text>
+    <text x="415" y="150" class="l" text-anchor="middle">SGBDs</text>
+    <text x="415" y="168" class="l" text-anchor="middle">em produção</text>
+    <text x="415" y="198" class="s" text-anchor="middle">SQL Server · Postgres</text>
+    <text x="415" y="213" class="s" text-anchor="middle">MySQL · Oracle · Mongo · Redis</text>
+  </g>
+  <g class="f" style="animation-delay:.4s">
+    <rect x="503" y="56" width="146" height="172" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="576" y="118" class="n" text-anchor="middle">4</text>
+    <text x="576" y="150" class="l" text-anchor="middle">clouds</text>
+    <text x="576" y="168" class="l" text-anchor="middle">gerenciadas</text>
+    <text x="576" y="198" class="s" text-anchor="middle">Azure · AWS</text>
+    <text x="576" y="213" class="s" text-anchor="middle">GCP · Oracle Cloud</text>
+  </g>
+  <g class="f" style="animation-delay:.5s">
+    <rect x="664" y="56" width="146" height="172" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="737" y="118" class="n" text-anchor="middle" style="font-size:32px">HA/DR</text>
+    <text x="737" y="150" class="l" text-anchor="middle">ambientes</text>
+    <text x="737" y="168" class="l" text-anchor="middle">críticos</text>
+    <text x="737" y="198" class="s" text-anchor="middle">AlwaysOn · HADR</text>
+    <text x="737" y="213" class="s" text-anchor="middle">DR com RPO/RTO</text>
+  </g>
+  <g class="f" style="animation-delay:.6s">
+    <rect x="825" y="56" width="145" height="172" rx="10" fill="#0d1117" stroke="#30363d"/>
+    <text x="897" y="118" class="n" text-anchor="middle">4</text>
+    <text x="897" y="150" class="l" text-anchor="middle">certificações</text>
+    <text x="897" y="168" class="l" text-anchor="middle">recentes</text>
+    <text x="897" y="198" class="s" text-anchor="middle">OpenAI (3)</text>
+    <text x="897" y="213" class="s" text-anchor="middle">Oracle Academy</text>
+  </g>
+</svg>

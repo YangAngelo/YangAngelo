@@ -1,17 +1,18 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:a855f7&height=220&section=header&text=Yan%20Gustavo%20Angelo&fontSize=44&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=DBA%20%E2%80%A2%20Cloud%20%26%20Infraestrutura%20%E2%80%A2%20DevOps&descSize=18&descAlignY=58" width="100%" alt="Yan Gustavo Angelo"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:a855f7&height=230&section=header&text=Yan%20Gustavo%20Angelo&fontSize=46&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=DBA%20%E2%80%A2%20SQL%20Server%20e%20Data%20Platform%20%E2%80%A2%20Cloud%20e%20DevOps&descSize=18&descAlignY=58" width="100%" alt="Yan Gustavo Angelo"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/YangAngelo">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=00D4FF&center=true&vCenter=true&width=640&lines=Ol%C3%A1!+Eu+sou+o+Yang+%F0%9F%91%8B;DBA+SQL+Server+na+Giesecke%2BDevrient;Cloud+%E2%98%81%EF%B8%8F+AWS+%E2%80%A2+Azure+%E2%80%A2+GCP;Monitoramento+%E2%80%A2+Zabbix+%E2%80%A2+CloudWatch;DevOps+%E2%80%A2+Automa%C3%A7%C3%A3o+%E2%80%A2+CI%2FCD" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=900&color=00D4FF&center=true&vCenter=true&width=700&lines=Ol%C3%A1!+Eu+sou+o+Yang+%F0%9F%91%8B;SQL+Server+%26+Data+Platform+Architect;DBA+para+clientes+do+setor+banc%C3%A1rio+%F0%9F%8F%A6;AlwaysOn+%E2%80%A2+Backup+%26+DR+%E2%80%A2+Tuning;Azure+%E2%80%A2+AWS+%E2%80%A2+GCP+%E2%80%A2+Oracle+Cloud;Docker+%E2%80%A2+Terraform+%E2%80%A2+CI%2FCD" alt="Typing SVG"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.techintelligence.com.br"><img src="https://img.shields.io/badge/Tech%20Intelligence-site-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Site"/></a>
-  <img src="https://img.shields.io/badge/Praia%20Grande%20--%20SP-Brasil-a855f7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Local"/>
+  <a href="https://www.techintelligence.com.br"><img src="https://img.shields.io/badge/Tech%20Intelligence-Cloud%20%26%20DevOps-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech Intelligence"/></a>
+  <img src="https://img.shields.io/badge/G%2BD-DBA%20SQL%20Server-a855f7?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="G+D"/>
+  <img src="https://img.shields.io/badge/S%C3%A3o%20Paulo-Remoto-238636?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Local"/>
   <img src="https://komarev.com/ghpvc/?username=YangAngelo&label=Visitas&color=0e75b6&style=for-the-badge" alt="Visitas"/>
 </p>
 
@@ -19,24 +20,23 @@
 
 ### 🧑‍💻 Sobre mim
 
-Profissional de TI com **3+ anos** em **infraestrutura, administração de bancos de dados, monitoramento e cloud**.
-Atuo como **DBA na Giesecke+Devrient**, administrando ambientes críticos de **SQL Server**, além de **MySQL** e **PostgreSQL**, com foco em **disponibilidade, performance e segurança**.
+**DBA e especialista em Infraestrutura Cloud** focado em ambientes críticos e automação.
+Trabalho na **[Tech Intelligence](https://www.techintelligence.com.br)** como Analista de Infraestrutura Cloud & DevOps e, pela Tech Intelligence, atendo a **Giesecke+Devrient (G+D)** como **SQL Server & Data Platform Architect**. Lá sou responsável pelas **bases, instâncias, servidores e integrações** das aplicações de **clientes do setor bancário**, como **Itaú, Bradesco, Santander e PicPay**, entre outros.
 
-- 🎓 Técnico em Informática · cursando **Desenvolvimento de Software Multiplataforma**
-- 🔒 Especialização em **Cyber Security**
-- 🚀 Hoje com foco em **DevOps**, automação de processos e soluções cloud-native
-- 📊 Projetos de **B.I.** com dashboards no Amazon QuickSight
-- 🛠️ Background em suporte N2, Help Desk (GLPI / Service Desk) e ensino de informática
+- 🏦 **DBA no setor financeiro:** bases e integrações de aplicações de bancos e fintechs, com segurança, auditoria e **LGPD**
+- ⚡ **Alta disponibilidade:** AlwaysOn Availability Groups, clusterização, backup/restore e DR com **RPO/RTO** documentados
+- 📈 **Capacity planning:** solução centralizada de monitoramento de crescimento para **10+ instâncias SQL Server** de versões mistas
+- 🛡️ **Governança:** revisão e validação de DDL/DML antes de produção, controle de acesso por roles, criptografia e auditoria
+- ☁️ **Multi-cloud:** Azure, GCP (BigQuery/Cloud SQL), AWS (RDS/Aurora) e Oracle Cloud, com foco em custo e escala
+- 🐳 **DevOps:** Docker, Terraform, pipelines CI/CD, PowerShell, Shell Script e Python
+- 🎓 Superior em Desenvolvimento de Sistemas (**FATEC Praia Grande**) · Técnico em Informática (**ETEC Praia Grande**)
 
 ---
 
 ### 📈 Em números
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Experi%C3%AAncia%20em%20TI-3%2B%20anos-00d4ff?style=flat-square" alt="Experiência"/>
-  <img src="https://img.shields.io/badge/SGBDs-SQL%20Server%20%C2%B7%20MySQL%20%C2%B7%20PostgreSQL%20%C2%B7%20Oracle-a855f7?style=flat-square" alt="SGBDs"/>
-  <img src="https://img.shields.io/badge/Clouds-AWS%20%C2%B7%20Azure%20%C2%B7%20GCP-ff9900?style=flat-square" alt="Clouds"/>
-  <img src="https://img.shields.io/badge/Sistemas-Windows%20Server%20%C2%B7%20Ubuntu%20%C2%B7%20RHEL%20%C2%B7%20CentOS-238636?style=flat-square" alt="Sistemas"/>
+  <img src="./assets/highlights.svg" width="98%" alt="Destaques da carreira"/>
 </p>
 
 <p align="center">
@@ -49,39 +49,94 @@ Atuo como **DBA na Giesecke+Devrient**, administrando ambientes críticos de **S
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YangAngelo&custom_title=Atividade%20nos%20%C3%BAltimos%2031%20dias&bg_color=161b22&color=e6edf3&line=00d4ff&point=a855f7&area=true&area_color=00d4ff&hide_border=true" width="98%" alt="Gráfico de atividade"/>
+  <img src="./assets/activity.svg" width="98%" alt="Gráfico de atividade"/>
 </p>
+
+---
+
+### 💼 Experiência
+
+<p align="center">
+  <img src="./assets/timeline.svg" width="98%" alt="Trajetória profissional"/>
+</p>
+
+<details>
+<summary><b>Ver detalhes da experiência</b></summary>
+<br/>
+
+#### 🏦 SQL Server & Data Platform Architect, Giesecke+Devrient (via Tech Intelligence) · *jan/2025 – atual*
+- Administração e **tuning avançado** de instâncias SQL Server e PostgreSQL: otimização de queries, gestão de índices e redução de locks/deadlocks
+- Sustentação de **bases, instâncias, servidores e integrações** de aplicações de clientes bancários (Itaú, Bradesco, Santander, PicPay e outros)
+- **HADR** com AlwaysOn Availability Groups, clusterização e estratégias de Disaster Recovery
+- Políticas de **backup** (full, diferencial e log), testes periódicos de restore e planos de recuperação com RPO/RTO
+- **Capacity planning** centralizado para 10+ instâncias SQL Server de versões mistas
+- Automação de backups, jobs e manutenção preventiva com **PowerShell** e **Shell Script**
+- **Segurança e LGPD:** roles, criptografia e auditoria em ambientes de alta criticidade
+- **Governança:** revisão de scripts DDL/DML antes da publicação em produção
+
+#### ☁️ Analista de Infraestrutura Cloud & DevOps, Tech Intelligence · *dez/2024 – atual*
+- Gestão de subscrições e billing em **Azure** (VMs), **GCP** (BigQuery/Cloud SQL) e **AWS** (RDS/Aurora)
+- Deploy e orquestração com **Docker** e **Terraform** via pipelines de **CI/CD**
+- Integração de bases com **Data Lakes** e sustentação de infraestrutura para aplicações de **IA**
+- **MongoDB** e **Redis** em containers; JSON no PostgreSQL (JSONB) e SQL Server (OPENJSON) em pipelines de ETL
+- Investigação de incidentes de performance em SQL Server do **ERP Protheus**
+- Observabilidade com **Zabbix** e **Datadog**
+
+#### 📡 Analista de Suporte e Monitoramento Jr., IBIZ Tecnologia · *jan/2024 – jan/2025*
+- Monitoramento de performance de bancos produtivos e suporte especializado N1/N2
+- Dashboards de BI no **AWS QuickSight** integrados a pipelines de dados
+
+</details>
 
 ---
 
 ### 🧰 Stack & ferramentas
 
 <p align="center">
-  <b>☁️ Cloud & Infra</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=aws,azure,gcp,linux,ubuntu,redhat,windows,nginx,docker&perline=9" alt="Cloud"/>
-</p>
-
-<p align="center">
   <b>🗄️ Bancos de dados</b><br/><br/>
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/SQL%20Server-AlwaysOn-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
-  <img src="https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white" alt="RDS"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery"/>
+  <img src="https://img.shields.io/badge/Aurora%20%2F%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white" alt="Aurora/RDS"/>
 </p>
 
 <p align="center">
-  <b>📡 Monitoramento, B.I. & DevOps</b><br/><br/>
+  <b>☁️ Cloud, Infra & DevOps</b><br/><br/>
+  <img src="https://skillicons.dev/icons?i=azure,aws,gcp,docker,terraform,githubactions,linux,ubuntu,redhat,windows,nginx&perline=11" alt="Cloud e DevOps"/>
+</p>
+
+<p align="center">
+  <b>📡 Observabilidade & B.I.</b><br/><br/>
   <img src="https://img.shields.io/badge/Zabbix-D40000?style=for-the-badge&logo=zabbix&logoColor=white" alt="Zabbix"/>
+  <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" alt="Datadog"/>
   <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" alt="CloudWatch"/>
   <img src="https://img.shields.io/badge/QuickSight-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="QuickSight"/>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/GLPI-00A1DE?style=for-the-badge&logo=glpi&logoColor=white" alt="GLPI"/>
+  <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud"/>
 </p>
 
 <p align="center">
-  <b>💻 Linguagens & desenvolvimento</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=bash,powershell,python,cs,cpp,java,html,css,js,ts,react,nextjs,git,github,vscode&perline=15" alt="Dev"/>
+  <b>💻 Linguagens & automação</b><br/><br/>
+  <img src="https://img.shields.io/badge/T--SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="T-SQL"/>
+  <img src="https://img.shields.io/badge/PL%2FSQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="PL/SQL"/>
+  <img src="https://img.shields.io/badge/PL%2FpgSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PL/pgSQL"/><br/><br/>
+  <img src="https://skillicons.dev/icons?i=powershell,bash,python,cs,cpp,java,ts,nextjs,react,html,css,git&perline=12" alt="Linguagens"/>
+</p>
+
+---
+
+### 🏅 Certificações
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI-Cyber%20Deployment%20Practitioner-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Cyber Deployment Practitioner"/>
+  <img src="https://img.shields.io/badge/OpenAI-Technical%20Practitioner-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Technical Practitioner"/>
+  <img src="https://img.shields.io/badge/OpenAI-Foundational%20Knowledge-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Foundational Knowledge"/><br/>
+  <img src="https://img.shields.io/badge/Oracle%20Academy-Database%20Foundations%20(90h)-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Database Foundations"/>
+  <img src="https://img.shields.io/badge/Especializa%C3%A7%C3%A3o-Automa%C3%A7%C3%A3o%20%26%20Administra%C3%A7%C3%A3o%20de%20DBs-0e75b6?style=for-the-badge" alt="Especialização"/>
+  <img src="https://img.shields.io/badge/Ingl%C3%AAs-Intermedi%C3%A1rio%20%2F%20Avan%C3%A7ado-238636?style=for-the-badge" alt="Inglês"/>
 </p>
 
 ---
@@ -91,8 +146,8 @@ Atuo como **DBA na Giesecke+Devrient**, administrando ambientes críticos de **S
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🗄️ <a href="https://github.com/YangAngelo/Repositorio_SQL_Server">Repositório SQL Server</a></h4>
-      Coleção de scripts T-SQL usados no dia a dia de ambientes SQL Server: diagnóstico, performance, manutenção e rotinas de DBA.<br/><br/>
+      <h4>🗄️ <a href="https://github.com/YangAngelo/Repositorio_SQL_Server">Toolkit DBA SQL Server</a></h4>
+      Scripts T-SQL do dia a dia de DBA: blocking, fragmentação de índices, Query Store, linked servers, auditoria, backup/restore, migração de bases e expurgo de dados.<br/><br/>
       <img src="https://img.shields.io/badge/T--SQL-e38c00?style=flat-square" alt="T-SQL"/>
       <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/>
     </td>
@@ -110,7 +165,7 @@ Atuo como **DBA na Giesecke+Devrient**, administrando ambientes críticos de **S
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 <a href="https://github.com/YangAngelo/Repositorio_TechSmart_Site">Tech Smart — Site do TCC</a></h4>
+      <h4>🌐 <a href="https://github.com/YangAngelo/Repositorio_TechSmart_Site">Tech Smart, site do TCC</a></h4>
       Protótipo de site institucional da equipe Tech Smart, desenvolvido no TCC.<br/><br/>
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
@@ -142,17 +197,18 @@ Atuo como **DBA na Giesecke+Devrient**, administrando ambientes críticos de **S
 <summary><b>🇺🇸 English version</b></summary>
 <br/>
 
-**Cloud & Infrastructure Specialist · SQL Server DBA · Monitoring & DevOps** — 3+ years in IT Operations & Data Management.
+**SQL Server & Data Platform Architect · Cloud Infrastructure & DevOps**
 
-I'm an IT professional with solid experience in infrastructure, database administration, monitoring and cloud computing, supporting critical environments with a strong focus on availability, performance and security.
+DBA and cloud infrastructure professional focused on critical environments and automation. I work at **Tech Intelligence** (Cloud & DevOps) and, through Tech Intelligence, serve **Giesecke+Devrient (G+D)** as a SQL Server & Data Platform Architect, managing the **databases, instances, servers and integrations** behind applications for **banking clients** such as Itaú, Bradesco, Santander and PicPay.
 
-- **Cloud:** AWS (EC2, S3, Lambda, IAM, RDS), Microsoft Azure, GCP
-- **Databases:** SQL Server (Tuning Advisor, Profiler, Database Mail, Jobs, Linked Servers, Performance Tuning, Backup & Restore), PostgreSQL, MySQL, Oracle
-- **Monitoring:** Zabbix, Amazon CloudWatch, custom triggers, auto-discovery, alert integration with ticketing systems
-- **BI:** Amazon QuickSight dashboards
-- **DevOps & QA:** release testing, CI/CD automation, Git
-- **Security:** SSH, roles & permissions, log auditing, user management
-- **OS & tools:** Windows Server, Ubuntu, Red Hat, CentOS, Apache, Nginx, GLPI, shell scripting
+- **High availability:** AlwaysOn AG, clustering, backup/restore and DR plans with RPO/RTO
+- **Performance:** advanced tuning of SQL Server and PostgreSQL, index management, lock/deadlock reduction
+- **Capacity planning:** centralized growth monitoring for 10+ mixed-version SQL Server instances
+- **Security & compliance:** roles, encryption, auditing, LGPD (Brazil's GDPR)
+- **Multi-cloud:** Azure, GCP (BigQuery/Cloud SQL), AWS (RDS/Aurora), Oracle Cloud
+- **DevOps:** Docker, Terraform, CI/CD, PowerShell, Shell Script, Python
+- **NoSQL & monitoring:** MongoDB, Redis, Zabbix, Datadog
+- **Certifications:** OpenAI (Cyber Deployment Practitioner, Technical Practitioner, Foundational Knowledge), Oracle Database Foundations
 
 </details>
 

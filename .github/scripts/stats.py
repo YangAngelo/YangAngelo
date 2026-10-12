@@ -72,6 +72,13 @@ def collect():
         commits += c["totalCommitContributions"]
         contributions += c["contributionCalendar"]["totalContributions"]
 
+    cal = gql(
+        """query($login: String!) { user(login: $login) { contributionsCollection {
+          contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }""",
+        {"login": USER},
+    )["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    days = [d for w in cal for d in w["contributionDays"]][-31:]
+
     langs = {}
     for repo in base["repositories"]["nodes"]:
         for e in repo["languages"]["edges"]:
@@ -88,8 +95,54 @@ def collect():
         "followers": base["followers"]["totalCount"],
         "since": created.year,
         "langs": sorted(langs.items(), key=lambda kv: -kv[1][0]),
+        "days": days,
         "updated": now.strftime("%d/%m/%Y"),
     }
+
+
+def activity_card(d):
+    days = d["days"]
+    w, h = 990, 260
+    left, right, top, bottom = 50, 20, 60, 40
+    pw, ph = w - left - right, h - top - bottom
+    peak = max([x["contributionCount"] for x in days] + [4])
+    step = pw / max(len(days) - 1, 1)
+    pts = [
+        (left + i * step, top + ph - ph * x["contributionCount"] / peak)
+        for i, x in enumerate(days)
+    ]
+    line = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    area = f"{left},{top + ph} {line} {left + pw},{top + ph}"
+    grid = "".join(
+        f'<line x1="{left}" x2="{left + pw}" y1="{top + ph * k / 4:.1f}" y2="{top + ph * k / 4:.1f}" stroke="{BORDER}" stroke-dasharray="3 4"/>'
+        f'<text x="{left - 10}" y="{top + ph * k / 4 + 4:.1f}" class="s" text-anchor="end">{round(peak * (4 - k) / 4)}</text>'
+        for k in range(5)
+    )
+    labels = "".join(
+        f'<text x="{x:.1f}" y="{h - 14}" class="s" text-anchor="middle">{days[i]["date"][8:10]}/{days[i]["date"][5:7]}</text>'
+        for i, (x, _) in enumerate(pts) if i % 5 == 0 or i == len(pts) - 1
+    )
+    dots = "".join(
+        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="{ACCENT_B}" stroke="{CARD}" stroke-width="1.5"/>'
+        for x, y in pts
+    )
+    total = sum(x["contributionCount"] for x in days)
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
+  {defs()}
+  <defs><linearGradient id="a" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="{ACCENT_A}" stop-opacity=".35"/><stop offset="1" stop-color="{ACCENT_A}" stop-opacity="0"/>
+  </linearGradient></defs>
+  <style>.ln {{ stroke-dasharray: 3000; stroke-dashoffset: 3000; animation: draw 2s ease-out forwards; }}
+    @keyframes draw {{ to {{ stroke-dashoffset: 0; }} }}</style>
+  <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="12" fill="{CARD}" stroke="{BORDER}"/>
+  <text x="20" y="36" class="t">📅 Atividade nos últimos 31 dias</text>
+  <text x="{w - 20}" y="36" class="l" text-anchor="end">{total} contribuições</text>
+  {grid}
+  <polygon points="{area}" fill="url(#a)" class="f" style="animation-delay:.6s"/>
+  <polyline points="{line}" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" class="ln"/>
+  <g class="f" style="animation-delay:1.2s">{dots}</g>
+  {labels}
+</svg>"""
 
 
 def defs():
@@ -175,7 +228,7 @@ def langs_card(d):
 if __name__ == "__main__":
     data = collect()
     os.makedirs(OUT, exist_ok=True)
-    for name, svg in (("stats.svg", stats_card(data)), ("languages.svg", langs_card(data))):
+    for name, svg in (("stats.svg", stats_card(data)), ("languages.svg", langs_card(data)), ("activity.svg", activity_card(data))):
         with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
             f.write(svg)
-    print(json.dumps({k: v for k, v in data.items() if k != "langs"}, ensure_ascii=False))
+    print(json.dumps({k: v for k, v in data.items() if k not in ("langs", "days")}, ensure_ascii=False))
