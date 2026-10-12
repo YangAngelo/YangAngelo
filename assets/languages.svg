@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e6edf3; }
+    .l { font: 400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+    .v { font: 700 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e6edf3; }
+    .s { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+    .f { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .bar { transform-box: fill-box; transform-origin: left; animation: grow 1s ease-out forwards; }
+  </style>
+  <clipPath id="c"><rect x="20" y="58" width="455" height="10" rx="5"/></clipPath>
+  <rect x=".5" y=".5" width="494" height="209" rx="12" fill="#161b22" stroke="#30363d"/>
+  <text x="20" y="36" class="t">💻 Linguagens mais usadas</text>
+  <g clip-path="url(#c)"><g class="bar"><rect x="20.0" y="58" width="407.5" height="10" fill="#e38c00"/><rect x="427.5" y="58" width="29.6" height="10" fill="#f34b7d"/><rect x="457.1" y="58" width="10.3" height="10" fill="#7355dd"/><rect x="467.4" y="58" width="7.6" height="10" fill="#e34c26"/></g></g>
+  <g class="f" style="animation-delay:0.30s"><circle cx="29" cy="98" r="5" fill="#e38c00"/><text x="42" y="102" class="l" style="fill:#e6edf3">TSQL</text><text x="229" y="102" class="l" text-anchor="end">89.6%</text></g><g class="f" style="animation-delay:0.38s"><circle cx="264" cy="98" r="5" fill="#f34b7d"/><text x="277" y="102" class="l" style="fill:#e6edf3">C++</text><text x="464" y="102" class="l" text-anchor="end">6.5%</text></g><g class="f" style="animation-delay:0.46s"><circle cx="29" cy="132" r="5" fill="#7355dd"/><text x="42" y="136" class="l" style="fill:#e6edf3">C#</text><text x="229" y="136" class="l" text-anchor="end">2.3%</text></g><g class="f" style="animation-delay:0.54s"><circle cx="264" cy="132" r="5" fill="#e34c26"/><text x="277" y="136" class="l" style="fill:#e6edf3">HTML</text><text x="464" y="136" class="l" text-anchor="end">1.7%</text></g>
+</svg>

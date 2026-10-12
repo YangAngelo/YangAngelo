@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e6edf3; }
+    .l { font: 400 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+    .v { font: 700 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e6edf3; }
+    .s { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #8b949e; }
+    .f { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .bar { transform-box: fill-box; transform-origin: left; animation: grow 1s ease-out forwards; }
+  </style>
+  <rect x=".5" y=".5" width="494" height="209" rx="12" fill="#161b22" stroke="#30363d"/>
+  <text x="20" y="36" class="t">📊 Estatísticas no GitHub</text>
+  <text x="475" y="36" class="s" text-anchor="end">atualizado 12/10/2026</text>
+  <g class="f" style="animation-delay:0.10s"><rect x="20" y="56" width="145" height="64" rx="10" fill="#0d1117" stroke="#30363d"/><rect x="20" y="70" width="3" height="36" rx="1.5" fill="url(#g)"/><text x="36" y="88" class="v">7</text><text x="36" y="107" class="l">Repositórios</text></g><g class="f" style="animation-delay:0.18s"><rect x="175" y="56" width="145" height="64" rx="10" fill="#0d1117" stroke="#30363d"/><rect x="175" y="70" width="3" height="36" rx="1.5" fill="url(#g)"/><text x="191" y="88" class="v">27</text><text x="191" y="107" class="l">Commits</text></g><g class="f" style="animation-delay:0.26s"><rect x="330" y="56" width="145" height="64" rx="10" fill="#0d1117" stroke="#30363d"/><rect x="330" y="70" width="3" height="36" rx="1.5" fill="url(#g)"/><text x="346" y="88" class="v">36</text><text x="346" y="107" class="l">Contribuições</text></g><g class="f" style="animation-delay:0.34s"><rect x="20" y="130" width="145" height="64" rx="10" fill="#0d1117" stroke="#30363d"/><rect x="20" y="144" width="3" height="36" rx="1.5" fill="url(#g)"/><text x="36" y="162" class="v">1</text><text x="36" y="181" class="l">Pull Requests</text></g><g class="f" style="animation-delay:0.42s"><rect x="175" y="130" width="145" height="64" rx="10" fill="#0d1117" stroke="#30363d"/><rect x="175" y="144" width="3" height="36" rx="1.5" fill="url(#g)"/><text x="191" y="162" class="v">4</text><text x="191" y="181" class="l">Linguagens</text></g><g class="f" style="animation-delay:0.50s"><rect x="330" y="130" width="145" height="64" rx="10" fill="#0d1117" stroke="#30363d"/><rect x="330" y="144" width="3" height="36" rx="1.5" fill="url(#g)"/><text x="346" y="162" class="v">4</text><text x="346" y="181" class="l">Anos no GitHub</text></g>
+</svg>
