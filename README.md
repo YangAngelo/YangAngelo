@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.techintelligence.com.br"><img src="https://img.shields.io/badge/Tech%20Intelligence-Cloud%20%26%20DevOps-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech Intelligence"/></a>
-  <img src="https://img.shields.io/badge/G%2BD-DBA%20SQL%20Server-a855f7?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="G+D"/>
+  <img src="https://img.shields.io/badge/G%2BD-DBA%20SQL%20Server-a855f7?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="Giesecke & Devriement"/>
   <img src="https://img.shields.io/badge/S%C3%A3o%20Paulo-Remoto-238636?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Local"/>
   <img src="https://komarev.com/ghpvc/?username=YangAngelo&label=Visitas&color=0e75b6&style=for-the-badge" alt="Visitas"/>
 </p>
